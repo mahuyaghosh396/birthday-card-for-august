@@ -10,12 +10,12 @@ canvas {
 
 h1 {
   position: absolute;
-  top: 10vh;
+  top: 5vh;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
   font-family: "Source Sans Pro";
-  font-size: 7vw;
+  font-size: 5vw;
   font-weight: 900;
   -webkit-user-select: none;
   user-select: none;
@@ -25,60 +25,57 @@ h1 {
 
 .birthday-boy {
   position: absolute;
-  top: 30vh;
+  top: 50vh;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 35vw;
+  width: 30vw;
   height: auto;
   border-radius: 50%;
-  border: 5px solid #fff;
-  max-width: 120px;
+  border: 5px solid #00000000;
+  max-width: 300px;
 }
 
 .bible-verse {
   position: absolute;
-  top: 65vh;
+  top: 85vh;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
   font-family: "Source Sans Pro";
-  font-size: 4.5vw;
+  font-size: 2vw;
   text-align: center;
-  padding: 8px;
+  padding: px;
   max-width: 80%;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
 }
-
 .best-bro {
   position: absolute;
-  top: 75vh;
+  top: 16vh;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #ffcc00;
   font-family: "Source Sans Pro";
-  font-size: 5vw;
+  font-size: 1.5vw;
   text-align: center;
   font-weight: bold;
   max-width: 80%;
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   h1 {
       font-size: 8vw;
   }
 
   .birthday-boy {
       width: 40vw;
-      max-width: 300px;
   }
 
   .bible-verse {
-      font-size: 7vw;
-      padding: 6px;
+      font-size: 4vw;
+      padding: 8px;
   }
 
   .best-bro {
-      font-size: 6vw;
-  }
+    font-size: 4vw;
+}
 }
