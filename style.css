@@ -65,20 +65,20 @@ h1 {
 
 @media screen and (max-width: 480px) {
   h1 {
-      font-size: 6vw;
+      font-size: 8vw;
   }
 
   .birthday-boy {
       width: 40vw;
-      max-width: 100px;
+      max-width: 300px;
   }
 
   .bible-verse {
-      font-size: 5vw;
+      font-size: 7vw;
       padding: 6px;
   }
 
   .best-bro {
-      font-size: 5.5vw;
+      font-size: 6vw;
   }
 }
