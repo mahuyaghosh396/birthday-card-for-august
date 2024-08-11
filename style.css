@@ -61,6 +61,24 @@ h1 {
   font-weight: bold;
   max-width: 80%;
 }
+
+.birthday-song {
+  position: absolute;
+  top: 5vh;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  width: 20%;
+  max-width: 200px;
+  outline: none;
+}
+
+@media screen and (max-width: 600px) {
+  .birthday-song {
+    width: 90%;
+    top: 72vh;
+  }
+}
+
 @media screen and (max-width: 600px) {
   h1 {
       font-size: 6vw;

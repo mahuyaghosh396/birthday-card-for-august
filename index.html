@@ -11,7 +11,19 @@
     <img src="dada birthday img.png" alt="Sourav Dada" class="birthday-boy">
     <p class="bible-verse">"The Lord bless you and keep you; the Lord make his face shine on you and be gracious to you; the Lord turn his face toward you and give you peace." - Numbers 6:24-26</p>
     <p class="best-bro">Best Ever Bro, Always!</p>
+    <audio controls autoplay class="birthday-song">
+        <source src="Happy - Birthday - Song - In - English (1).mp3" type="audio/mpeg">
+     
+    </audio>
     <canvas id="birthday"></canvas>
     <script src="script.js"></script>
+    <script>
+        window.addEventListener('load', function() {
+            var audio = document.getElementById('birthday-song');
+            audio.play().catch(function(error) {
+                console.log('Autoplay prevented:', error);
+            });
+        });
+    </script>
 </body>
 </html>
