@@ -67,7 +67,7 @@ h1 {
   top: 5vh;
   left: 10%;
   transform: translate(-50%, -50%);
-  width: 20%;
+  width: 40%;
   max-width: 200px;
   outline: none;
 }
@@ -76,6 +76,7 @@ h1 {
   .birthday-song {
     width: 90%;
     top: 72vh;
+    left: 20%;
   }
 }
 
